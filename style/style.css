@@ -1,0 +1,119 @@
+body {
+    background-image: url(/images/bg-intro-desktop.png);
+    background-size: 100%;
+    font-family: 'Poppins';
+    background-color: hsl(0, 100%, 71%);
+}
+.container-1{
+    position:fixed;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+    left: 0;
+    text-align: center;
+}
+.container-2{
+    position:fixed;
+    width: 50%;
+    height: 100%;
+    overflow: auto;
+    right: 0;
+    text-align: center;
+}
+.block1{
+    position:relative;
+    top: 30%;
+    margin: auto;    
+    width: 500px;
+    height: 200px;
+    text-align: left;
+    color: white;
+}
+.block2{
+    position:relative;
+    top: 10%;
+    margin: auto;    
+    text-align: left;
+}
+#block-1{
+    position: relative;
+    padding-top: 25px;
+    top: 30%;
+    width: 600px;
+    height: 50px;
+    background-color: hsl(248, 32%, 49%);
+    margin: auto;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 14px 28px hsl(249, 10%, 26%) }
+#block-2{
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px hsl(249, 10%, 26%) 
+
+}
+#block-2 div{
+    width: 600px;
+    height: 500px;
+    margin: 50px;
+    position: relative;
+    top: 25px;
+    top: 50px;
+
+}
+.block1 h1{
+    font-weight: 600px;
+    font-size: 50px;
+}
+.block1 div{
+    text-align: left;
+    font-weight: 100;
+}
+
+#buttom{
+    background-color: hsl(154, 59%, 51%);
+    text-decoration: none;
+    border-radius: 10px;
+    width: 500px;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-style: none;
+
+}
+#input{
+    border-radius: 10px;
+    width: 450px;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: hsl(249, 10%, 26%);
+    border-style: solid;
+    border-color: hsl(246, 25%, 77%);
+
+}
+.Footer_block{
+    position: absolute;
+    font-size: 10px;
+    width: 500px;
+    height: 50px;
+    margin-top: 0;
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+}
+.Footer_block a{
+    text-decoration: none;
+    color:hsl(0, 100%, 71%);
+}
